@@ -1,2 +1,2 @@
 # Personal-Projects
-Small personal projects
+Personal undertakings of mine
