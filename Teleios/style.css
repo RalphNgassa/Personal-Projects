@@ -1,0 +1,123 @@
+/* beginning of nav*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-colored {
+    background-color: white;
+}
+.nav-transparent {
+    background-color: transparent;
+}
+body,html {
+    position: relative;
+    font-size: 16px;
+}
+header.scrolled {
+    background-color: white;
+    transition: background-color 200ms linear;
+}
+header {
+    border: transparent 1px solid;
+    overflow: hidden;
+    font-family: 'lato',sans-serif;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    align-items: center;
+    height: 8%;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+.logo-container, .nav-links {
+    display: flex;
+}
+.logo {
+    font-weight: 600;
+    margin: 0.3125rem;
+    letter-spacing: 0.0625rem;
+}
+.logo-container {
+    align-items: center;
+    margin-left: 5%;
+}
+nav {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+}
+.nav-links {
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0.625rem 1.875rem 0 0;
+    flex: 5;
+    align-content: center;
+}
+.nav-link {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15rem;
+    display: inline-block;
+    padding: 0.9375rem 1.25rem;
+    position: relative;
+    margin-bottom: 0.625rem;
+    transform: translateY(-0.625rem);
+  }
+.nav-link:hover {
+    color: rgb(201, 92, 201);
+}
+.nav-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 0.125rem;
+    left: 50%;
+    position: absolute;
+    background: rgb(201, 92, 201);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.nav-link:hover:after {
+    width: 100%; 
+    left: 0; 
+}
+.socials {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    width: 1.5625rem;
+    height: auto;
+    margin-top: 0.5rem;
+    justify-content: space-around;
+}
+.social {
+    margin-top: 0.1875rem;
+    width: 1.5625rem;
+    height: auto;
+    transition: 0.4s all ease;
+}
+#twitter:hover {
+    content: url(img/twitter_color.png);
+    width: 1.875rem;
+    height: auto;
+}
+#facebook:hover {
+    content: url(img/facebook_color.png);
+    width: 1.875rem;
+    height: auto;
+}
+#linkedin:hover {
+    content: url(img/linkedin_color.png);
+    width: 1.875rem;
+    height: auto;
+}
+.logo-container img {
+    height: 3rem;
+}
+/* ending of nav */
