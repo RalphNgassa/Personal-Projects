@@ -1,51 +1,54 @@
 <!DocType HTML>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
         <title>Teleios Derma Day Spa</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link href="resources/css/style.css" type="text/css" rel="stylesheet"> 
-		<link rel = "stylesheet" href = "style.css">
         <link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;500;800;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     </head>
-	<body>
-    <header id="mynav">
-        <div class="logo-container">
-            <a href="index.html"><img src="../homepage/img/drink.png" alt="logo"></a>
-            <h4 class=logo>Teleios</h4>
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a class='nav-link' href="">HOME</a></li>
-                <li><a class='nav-link' href="">PRODUCTS</a></li>
-                <li><a class='nav-link' href="">Service</a></li>
-                <li><a class='nav-link' href="">PRICING</a></li>
-                <li><a class='nav-link' href="">CONTACT</a></li>
-            </ul>
-            
-        </nav>
-    </header>
-        <section class="hero">
+    <body>
+        <section class="hero" id="hero">
             <div class="row">
-                <h1>Teleios derma spa</h1>
+                <h1>Teleios derma day spa</h1>
                 <h2> more than a beauty salon </h2>
-                <div class="hero-button-1">
-                <a href='#' class="hero-button">
-                    Our services
-                </a>
+                <a href="#" class="button-link hero-button-1-link">
+                <div href='#' class=" button hero-button-1">
+                    <span>Our Services</span>
                 </div>
-                <div class="hero-button-2" >
-                <a href='#' class="hero-button">
-                    Book An Appointment
                 </a>
+                <a href="#" class="button-link hero-button-2-link" >
+                <div class="button hero-button-2">
+                    <span>Book An Appointment</span>
                 </div>
+                </a>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
+           <div id="mynav">
+                <nav>
+                   <a href="#"><img src="resources/css/img/Telios-logo.png" alt="logo"></a>
+                    <ul class="nav-links">
+                        <li><a class='nav-link' href="">PRODUCTS</a></li>
+                        <li><a class='nav-link' href="#services" >Service</a></li>
+                        <li><a class='nav-link' href="#prices">PRICING</a></li>
+                        <li><a class='nav-link' href="#footer">CONTACT</a></li>
+                    </ul>    
+                </nav>
+            </div>
             <div class="services row">
                 <div class="col col-1-of-3">
                   <img src="resources/css/icons/hairdresser.png" alt="men-barber" class="men-img">
@@ -68,5 +71,84 @@
                 </div>
             </div>
         </section>
+        <section class="appoint" id="booking">
+         
+            <div class="rowss">
+                <div class="img-container">
+                    <img src="resources/css/img/fade.jpg" alt="barber-img" class="barber">
+                </div>
+                <div class="booking-form">
+                    <h2>Book an appointment now</h2>
+                    <form>
+                        <input type="text" class="name" id="client-name" placeholder="First Name">
+                        <input type="text" class="name" id="client-name" placeholder="Last Name">
+                        <input type="tel" class="phone" id="client-phone" placeholder="Phone Number">
+                        <input type="email" class="email" id="client-email" placeholder="Email address">
+                    </form>
+                       <a href="#" class="booking-link">
+                           <div class="booking-btn">
+                            Book Appointment
+                           </div>
+                        </a>
+                </div>
+            </div>
+        </section>
+        <section class="prices clearfix" id="prices">
+           <div class="price-range">
+               <div class="men" id="p1">
+                  <div >
+                      <h4>Men Shaving</h4>
+                  </div>
+                  <div class="prices-text">
+                   <a href="#"><p>See prices</p></a>
+                  </div>
+               </div>
+               <div class="women" id="p2">
+                  <div>
+                      <h4>Women Hairstyling</h4>
+                  </div>
+                  <div class="prices-text">
+                   <a href="#"><p>See prices</p></a>
+                  </div>
+               </div>
+               <div class="body" id="p3">
+                  <div>
+                      <h4>Body Care</h4>
+                  </div>
+                  <div class="prices-text">
+                   <a href="#"><p>See prices</p></a>
+                  </div>
+               </div>
+           </div>
+           <div class="img-container">
+               <img src="resources/css/img/woman-2.jpg" class="woman" alt="woman">
+           </div>
+        </section>
+        <footer id="footer">
+        <div class="row">
+           <div class="col" id="col-1">
+            <img src="resources/css/img/Telios-logo.png" alt=logo class="footer-logo clearfix">
+            <nav class="footer-nav ">
+            <a href="#" class="ws-icon"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="#" class="ig-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#" class="fb-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+            </nav>
+           </div>
+           <div class="col" id="col-2">
+               <h4>Location</h4>
+               <p>Near First-T, Bonamoussadi, Douala, Cameroon</p>
+           </div>
+           <div class="col" id="col-3">
+               <h4>Opening Hours</h4>
+               <p>Arbitror non quid deserunt, irure incurreret id graviterque, voluptate duis duis 
+                   de quis quo varias senserit proident. Ullamco in culpa ingeniis, o sunt 
+                   incurreret excepteur se litteris enim tempor,</p>
+           </div>
+        </div>
+        <div>
+        <p class="copy"> Copyright &#169; 2020 All rights reserved</p> 
+        </div>   
+        </footer>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </body>
 </html>
