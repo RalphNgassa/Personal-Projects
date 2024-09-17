@@ -154,9 +154,8 @@ nav {
 .services{
     background-color: #fafafa;
     color: #888888;
-    
 }
-.services .row{
+.js--services-row{
     background-color: #fafafa;
     max-width: 1140px;
     margin: 0 auto;
@@ -166,6 +165,11 @@ nav {
     padding-left: 50px;
     display: flex;   
     justify-content: center;
+    visibility: hidden;
+}
+
+.js--services-row.animate__animated{
+    visibility: visible;
 }
 .services .col{
     max-width: 35%;
